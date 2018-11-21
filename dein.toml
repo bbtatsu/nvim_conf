@@ -1,0 +1,84 @@
+[[plugins]]
+repo = 'Shougo/context_filetype.vim'
+
+[[plugins]]
+repo = 'kristijanhusak/vim-hybrid-material'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+
+[[plugins]]
+repo = 'kana/vim-smartinput'
+
+[[plugins]]
+repo = 'kana/vim-operator-user'
+
+[[plugins]]
+repo = 'kana/vim-operator-replace'
+
+[[pluginis]]
+repo = 'rhysd/vim-operator-surround'
+
+[[pluginis]]
+repo = 'hynek/vim-python-pep8-indent'
+
+[[plugins]]
+repo = 'hachibeeDI/python_hl_lvar.vim'
+
+[[pluginis]]
+repo = 'hachibeeDI/smartinput-petterns'
+
+[[pluginis]]
+repo = 'scrooloose/nerdtree'
+hook_post_source='''
+let NERDTreeShowHidden = 1
+'''
+
+[[pluginis]]
+repo = 'tpope/vim-fugitive'
+
+[[plugins]]
+repo = 'critiqjo/lldb.nvim'
+
+[[plugins]]
+repo = 'scrooloose/nerdtree' 
+
+[[plugins]]
+repo = 'kevinw/pyflakes-vim'
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+
+[[plugins]]
+repo ='tpope/vim-eunuch'
+
+[[plugins]]
+repo = 'tpope/vim-surround'
+
+[[plugins]]
+repo = 'terryma/vim-multiple-cursors'
+
+[[plugins]]
+repo = 'vim-airline/vim-airline'
+
+[[plugins]]
+repo = 'scrooloose/nerdcommenter'
+hook_post_source='''
+let g:NERDSpaceDelims=1
+let g:NERDDefaultAlign='left'
+'''
+[[plugins]]
+repo = 'sudar/vim-arduino-syntax'
+
+[[plugins]]
+repo = 'Shougo/denite.nvim'
+on_i = 1
+[[plugins]]
+repo = 'Shougo/unite-outline'
+on_source = ['denite.nvim']
+[[plugins]]
+repo = 'Shougo/neomru.vim'
+on_source = ['denite.nvim']
+[[plugins]]
+repo = 'Shougo/neoyank.vim'
+on_source = ['denite.nvim']
