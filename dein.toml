@@ -22,9 +22,6 @@ repo = 'rhysd/vim-operator-surround'
 [[pluginis]]
 repo = 'hynek/vim-python-pep8-indent'
 
-[[plugins]]
-repo = 'hachibeeDI/python_hl_lvar.vim'
-
 [[pluginis]]
 repo = 'hachibeeDI/smartinput-petterns'
 
